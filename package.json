@@ -1,0 +1,21 @@
+{
+  "name": "stipezcutz-rewards",
+  "version": "1.0.0",
+  "description": "Punkte- und Prämien-Webapp für das StipezCutz Haarstudio",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js",
+    "media:download": "node scripts/download-media.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.1.0"
+  }
+}

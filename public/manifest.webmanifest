@@ -1,0 +1,9 @@
+{
+  "name": "StipezCutz Rewards",
+  "short_name": "StipezCutz",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0a09",
+  "theme_color": "#0b0a09",
+  "icons": [{ "src": "/img/icon-256.png", "sizes": "256x256", "type": "image/png" }]
+}
